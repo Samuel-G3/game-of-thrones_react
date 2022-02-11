@@ -1,0 +1,65 @@
+.housescard-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 170px;
+    height: 260px;
+    margin: 28px 7px;
+
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 250px;
+        color: #fff;
+        
+
+        &:visited {
+            color: none;
+        }
+    }
+
+
+    .housescard-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+
+    .housescard-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 280px;
+        overflow: hidden;
+        a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: space-between;
+            height: 250px;
+            
+    
+            &:visited {
+                color: none;
+            }
+        }
+        .housescard-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 15vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+
+  &_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "GameofThrones";
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    &_link {
+      font-size: 1.3rem;
+      line-height: 2rem;
+    }
+  }
+}

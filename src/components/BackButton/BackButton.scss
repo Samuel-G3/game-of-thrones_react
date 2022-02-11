@@ -1,0 +1,29 @@
+.backButton{
+ color:whitesmoke;
+ display:flex;
+flex-direction: row;
+justify-content:center;
+
+.backButton-img{
+    max-width: 50px;
+    max-height: 25px;
+
+}
+
+a{
+    
+    text-decoration:none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.backButton-txt{
+    padding-top: 5px;
+    color: whitesmoke;
+    margin: 0;
+    padding-left: 10px;
+
+}
+
+}

@@ -1,0 +1,30 @@
+.home-container{    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    min-height: 75vh;
+
+    h1{
+        max-width: 800px;
+        margin:0 auto;
+        font-size: 8rem;
+        line-height: 11rem;
+        font-family: 'GameofThrones';
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 992px) {  
+    
+    .home-container h1 {
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 3rem;
+        line-height: 5rem;
+        font-family: 'GameofThrones';
+        font-weight: 400;
+    }
+  }

@@ -1,0 +1,53 @@
+.Character-card-main {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "GameofThrones";
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.img {
+  margin: 18px;
+  width: 200px;
+  height: 280px;
+}
+
+.Character-card-image {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.Character-card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.Character-card-detail {
+  margin: 20px;
+  justify-content: center;
+  min-width: 200px;
+  max-width: 250px;
+
+  .simplebar-track.simplebar-vertical {
+    right: 0px;
+  }
+}
+.Character-card__detail-img {
+  max-width: 150px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 13px;
+  padding: 3px;
+  font-family: "Lato", sans-serif;
+}

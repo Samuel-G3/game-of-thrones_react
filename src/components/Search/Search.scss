@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    margin:0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+   
+    input{
+        border:none;
+        margin: 5px;
+        height: 20px;
+        background-color: black;
+        border-bottom: 1px solid white;
+        width: 100%;
+        max-width:500px;
+        color: white;
+    
+    }
+    .img-search{
+        margin: 3px 5px;
+    }
+   }
+
+
+@media (min-width: 1024px) {
+    .form{
+        input{
+            width: 520px;
+            }
+        }
+}

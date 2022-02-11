@@ -1,0 +1,57 @@
+.charactercard-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    width: 170px;
+    height: 215px;
+    margin: 28px 7px;
+    position: relative;
+
+    .charactercard-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+        
+        .hide {
+            display: none;
+            position: absolute;
+            width: 100%;
+            bottom: -15px;
+            max-height: 50px;
+            background-color: rgba(0, 0, 0, 0.514);
+            padding: 5% 50% 5% 50%;
+        }
+
+       &:hover{
+        .hide {
+            display: block;
+          }
+       } 
+    
+}
+
+@media (min-width: 1024px) {
+    .charactercard-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        width: 230px;
+        height: 270px;
+        margin: 28px 7px;
+        
+        .charactercard-img {
+            width: 100%;
+            object-fit: cover;
+            
+            
+        }        
+          
+      
+    }
+  }

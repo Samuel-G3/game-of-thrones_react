@@ -1,0 +1,32 @@
+.Houses-card-container {
+  font-family: "GameofThrones";
+}
+
+.Houses-card-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.Houses-card-logo {
+  margin: 18px;
+  width: 200px;
+  height: 240px;
+}
+
+p {
+  margin: 15px;
+  padding: 10px;
+}
+
+
+.Houses-card-detail {
+  margin: 50px;
+  justify-content: center;
+  min-width: 200px;
+  max-width: 250px;
+}
